@@ -7,6 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+# NOTES APP
+
+It is an application that allows you to manage personal notes
+
+#### Technologies
+- Vue js 
+- Laravel
+
+#### Characteristics
+- Login and user registration
+- create, edit and delete notes
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
