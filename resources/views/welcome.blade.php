@@ -31,8 +31,10 @@
                             <hr class="w-50" style="height: 5px">
                         </div>
                         <div class="row justify-content-center">
-                            <div class="col-12 col-lg-6 mb-3"><a href="{{ route('login') }}" class="btn btn-success btn-lg btn-block">Iniciar Sesión</a></div>    
-                            <div class="col-12 col-lg-6 mb-3"><a href="{{ route('register') }}" class="btn btn-success btn-lg btn-block">Registrarse</a></div>    
+                            <div class="col-12 col-lg-6 mb-3"><a href="{{ route('login') }}"
+                                    class="btn btn-success btn-lg btn-block">Iniciar Sesión</a></div>
+                            <div class="col-12 col-lg-6 mb-3"><a href="{{ route('register') }}"
+                                    class="btn btn-success btn-lg btn-block">Registrarse</a></div>
                         </div>
                     </div>
                 </div>

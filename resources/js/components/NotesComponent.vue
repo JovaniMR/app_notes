@@ -5,7 +5,7 @@
         <div class="col-6">
           Publicado el: {{ note.created_at | formatDate }}
         </div>
-        <div class="col-6 text-right">
+        <div class="col-5 text-right">
           <button
             v-if="editMode"
             class="btn btn-primary btn-sm"
