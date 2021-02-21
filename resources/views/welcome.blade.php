@@ -31,14 +31,21 @@
                             <hr class="w-50" style="height: 5px">
                         </div>
                         <div class="row justify-content-center">
-                            <div class="col-12 col-lg-6 mb-3"><a href="{{ route('login') }}" class="btn btn-success btn-lg btn-block">Iniciar Sesión</a></div>    
-                            <div class="col-12 col-lg-6 mb-3"><a href="{{ route('register') }}" class="btn btn-success btn-lg btn-block">Registrarse</a></div>    
+                            <div class="col-12 col-lg-6 mb-3"><a href="{{ route('login') }}"
+                                    class="btn btn-success btn-lg btn-block">Iniciar Sesión</a></div>
+                            <div class="col-12 col-lg-6 mb-3"><a href="{{ route('register') }}"
+                                    class="btn btn-success btn-lg btn-block">Registrarse</a></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="text-center" style="position: absolute; bottom:5%; width:100%">
+        <div class="col">
+            <h6><strong>&copy 2020 Sitio desarrollado por Jovani Martinez</strong></h6>
+        </div>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
