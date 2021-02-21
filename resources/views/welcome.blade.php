@@ -43,7 +43,7 @@
     </div>
     <footer>
         <div class="col text-center" style="position: absolute; width: 100%; bottom: 5%;" >
-            <h5><strong>&copy 2020 Sitio desarrollado por Jovani Martinez</strong></h5>
+            <h6><strong>&copy 2020 Sitio desarrollado por Jovani Martinez</strong></h6>
         </div>
     </footer>
     <!-- Optional JavaScript; choose one of the two! -->
