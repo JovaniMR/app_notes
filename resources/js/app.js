@@ -6,8 +6,14 @@ window.Vue = require('vue');
 
 import VueRouter from 'vue-router';
 import Principal from './components/PrincipalComponent.vue';
-import Otro from './components/OtroComponent.vue';
-
+import moment from 'moment'
+  
+Vue.config.productionTip = false
+Vue.filter('formatDate', function(value) {
+  if (value) {
+    return moment(String(value)).format('MM/DD/YYYY hh:mm')
+  }
+});
 
 require('vue2-animate/dist/vue2-animate.min.css')
 
@@ -22,8 +28,6 @@ Vue.use(VueRouter);
 
 const routes = [
   {path: '/home', component: Principal},
-  {path: '/otro',name: 'nombre',component: Otro },
-
 ]
 
 const router = new VueRouter({
