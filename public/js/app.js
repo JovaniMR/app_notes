@@ -60020,7 +60020,7 @@ var render = function() {
   return _c("div", { staticClass: "card mt-2" }, [
     _c("div", { staticClass: "card-header pt-1 pb-1" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-6" }, [
+        _c("div", { staticClass: "col-12 col-md-6" }, [
           _vm._v(
             "\n        Publicado el: " +
               _vm._s(_vm._f("formatDate")(_vm.note.created_at)) +
@@ -60028,12 +60028,12 @@ var render = function() {
           )
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-5 text-right" }, [
+        _c("div", { staticClass: "col-12 col-md-5 text-right" }, [
           _vm.editMode
             ? _c(
                 "button",
                 {
-                  staticClass: "btn btn-primary btn-sm",
+                  staticClass: "btn btn-primary btn-sm mr-3",
                   attrs: { type: "submit" },
                   on: {
                     click: function($event) {
@@ -60046,7 +60046,7 @@ var render = function() {
             : _c(
                 "button",
                 {
-                  staticClass: "btn btn-warning btn-sm",
+                  staticClass: "btn btn-warning btn-sm mr-3",
                   attrs: { type: "submit" },
                   on: {
                     click: function($event) {

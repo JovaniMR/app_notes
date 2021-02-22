@@ -16,4 +16,5 @@ mix.js('resources/js/app.js', 'public/js')
 
 mix.styles([
     'public/css/style.css',
+    'public/css/home.css',
 ], 'public/css/all.css');

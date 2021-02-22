@@ -1,0 +1,10 @@
+html,
+body {
+    background-color: rgb(143,188,143);
+    width: 100%;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-weight: 200;
+    height: 100%;
+    margin: 0;
+}
