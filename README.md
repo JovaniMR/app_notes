@@ -1,94 +1,25 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# APP NOTES
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Es una aplicación que te permite gestionar notas personales
 
-# NOTES APP
-
-It is an application that allows you to manage personal notes
-
-#### Technologies
+#### Tecnologías
+- HTML, CSS, Bootstrap, Javascript
 - Vue js 
 - Laravel
 
-#### Characteristics
-- Login and user registration
-- create, edit and delete notes
+#### Características
+- Registro e inicio de sesión
+- Gestión de notas (crear, editar, eliminar)
+- Visualización de la hora en que se agregó la nota 
 
-## Demo
->Link: [Notes](http://laravelnotes.herokuapp.com "notes")
+### Inicio
+<img src="https://lh3.googleusercontent.com/NW1ICjUx4IrKLBQd_T-DkwAoHcVsblAA4diSnn_6ZQEPwJJCzes1SeBzrabX2_Ea9ojvZREPQi6ShEZxQmqwmjg2YPYcPUNn0vxvC3HFJ_qtWjL-dumh1oZ772w4Zsss11b5STBBoopMjRP6ULPU2zJh5tkrv_xFrbp4HedOb8nGHNVvHGPCJ0V7qQHSy3H1ZG34gvJzEjjj-9w41EK4mB3PHwlk2k-eXPHMfj8BGyDiG2WFy-Q4pH91Wpv5U8uiZb49f_MmWX5garLIuvjkk8mKdM9XTy1mKun90zU76u-oQGlJD9QCNmk7KdDAgIUxFC_jeo9F9Tx3mIANMBQfnPoJ26HDxEi8wtTXka7FIOIPA-ntBQgIYfoT3clQeeHVkYuMGQvi8YHcO5hNlmHuRU3O4WSPzmH2XbEdnpORgw7h6w8LRyFCJt5E9hsg8531cFV1wLvIFsZYEEoeCqxrZ4JFm8Qf1ufdFHhk04l1NNz8io3dkC3HDQtSh9DlHWUX88pfQ8FMclmgYnKp7fgjW3gN2PW6SLMxJP4WUWTqN_AbX8QF4vdvTSNRSsPy1PAmLcqZITJnIfHmORMvn0ql3wxkeKT75wi27poMe9Ifrv0XwcsUjjPK5xGycaFN21B91wN_HGGaKNfM-DcJwpyjnl3BRxieU-cusx0xuhTtu83sZXXROrBrrS8I7enwBIbJvWWPfsXvyciCgBmr35bL4krwWDw_iMrzzfnC_K6at30iQtHtwg1f6a7FcB0cFpLuEGziD-IGsC-TP3cQQL613z84pZ8ByxPBhF7VfigTVicd6jHzPfCydR9GC5tTZ3LBwzLLYb7TTiWF6KnKLdMQ4ghxdFQ_gt9Zm6usdSDJzbUYn9_wvUPB2znOrZ2-Q-FGfu2g_6UzbWFFMBXY-vLdPuoNIV3f5bbiZmQ0eC_y7TFrk8zA07Sr_l8S1sC5BUjiu_y51o43NyeLYWdT53-bQ9c9aRy1KuPK_LwCp_KBQYyQXa49Nmnpwg=w1354-h605-s-no?authuser=0" alt="login" width="1000px">
 
-## About Laravel
+### Login
+<img src="https://lh3.googleusercontent.com/-pC0gL0R9mQxoJDIArfsDG7ZMx7DCasULl-ryxGRrNscBFjycg0gZ2K_dkDU38oHYhemQMxDC-xmPJaIbWOLbScS80CBMyJCblATA9y-fXcWs0akt37NVbvO-kGt04WXmrv6QUUyz0CLh3LYkuyATm5U70wgBHEbqdHPXAN8m2kn681nPDrsrF6uvmzwZmIaOrXfcXbFKWDyA5cP7ErCROVfw4uq5QRKUs0l47ypRnmN1MmGTh3twn_t_rbeBa_jNku7l6v1s4z9go-A4fK0X3PxQO1173r2alGlSQaetIMkJNVAbRpgB_714EONQf-9bqtgl9DeJkJ8AHHTsfLiwhajCOheLov9f_nDnqVc89YYRp8cMrDMFJVc_6PsT7ikwV9pl2c8b1v9O0ZRYesTXijz3m9rXJpAbsN3gPJVQHVrkBC_vfJxfRb8-eP_bCMl8qbovOYUT3hD5er15I1fM0v9TSE7ekzBrLIFgkSYVH-xeG_DssuzP0YmDThpkYymmp2JcnjiiNz9Jy2GdvRupgdR_BdZR-6c8tJFSmMgISlWP4ysf_hAe9nHL4O2zzH02Eh5oBvtE821Zu9s2PqvDq5zZ1ddCIqxayofqtE6FKcxxFg0DJFGSG0H58rHfgQuTna9xltg1KJThf1DOIhpfTaRFlyr3dtN4N4rJzrP2p50pZYUjEuoXYwwC-EldbPWvHTDipMVHW98aHsMFvRgmxVzpOUsUNVQQCPHX2iRABiUlv1GmWXVJHJZqWnpMt3EHhVbLqA4g0lSjuWivVgPDzYvCTHSYAqc6t2mqR4I6xeH6Twy2SizJIfYXKywGqlUIrOkQ6VRHC4PvBL7lFfLaaSzDmbeeDiYTMiVLeuxlxxW6VErF1Mh7gROx43NP2wrBIvqD3ZpGVVMQ5ksHtexHGYoLapb4y1GCATdP3u6DH_h4Ye74epzy67R1HJDRT43wdqsZ630mmDz-NkoTdmQN6hr5Dvo27ADUzwHJ9ozvDweBWo2TpgIPA=w1354-h605-s-no?authuser=0" alt="login" width="1000px">
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Registro
+<img src="https://lh3.googleusercontent.com/mklkmjKXOdOxy0h0d4AyteEGGQkvCTbnh5HWgIh2T9dzj_rj7RSunlnKf7k98-s4sABbKB3-5BpmO6fZ95Mcva2wEHuVBJAmXNnen-4GDg4IvTQOJSe1NrWnWB9e6SpLoh5rye28gWqRiUbaCeSp68miNWLgtnlG09hT8O5reIhnxybhUrr7C-6FKuW90OYPYx95JT-JFj8RveybHQLk-MNPQanmY9Eb9vBmFWit7VeEKWldo_oC0bxOiHbtq797VyB-hoiwjkLM5TouVGAf0bPmyH3YIO6xuUE-AzUa8F1JjTZ1Yo9784PcXywYeXTWZMgW6FoMO2VTF_RK1u4hykJDRWLfmx4DQhFOJLEtqEOv22FaGrbS3pJgqWmdWt_Cy0eY94ZiGDwtaj1qnkEqrrRUd7iO6y6I6OUbVBv1rPScjtnLecQnR7UJFcbViC-nJxMlNsTuY8UrCneoqj8YoyS2viAD4a8ihsLwkpmBEImzOKzEPeWVrU_n7--lYaMj6QhxV8W6fnBlAPC2Cv47sd1IzZ24F_9V1rSjYzaec9Fm1aiVZZ7aSzO5OgtzU8TB3M5AsdogZ4Y6OI8gviG_ib3LMvi2ruWzk6S60HTeqSp7j196nVjOqn49NAU5WDlTuJ1zYDSNvX_SFUWMFG0NOcBcvZQ_OQ2Am1WGZBQJtgyYImM9n0X_xpAZJ6h8nkECJe3XOIi6RneNC2xc-lB1gY1XYMtSARRQYcLBouYq9JnE8e7Xr8egEnGCYzq6mRDsr8Yt5oViELP3ocV4F99lq9CERt3GTtmAgthYqvs4C0M_V5AaA-nEyiXphoMz4uuYG88MigxdPSi6uyubfQcCES1k0R5YGh8i4EI34sJ6Bg803qxudtDyIBb9-0wI4WxSo2A4mIAUq7luIabhMXTOd_-Uwazy1r9Qn9tEVQ7nNSwQGzj_Q1GkJ1j9TI1iasPP1AJjytydtxnFdvWzBRD5UYHLUUt4YEAQfMgj58hsqZGHiEkiY-p17Q=w1354-h605-s-no?authuser=0" alt="login" width="1000px">
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-- [云软科技](http://www.yunruan.ltd/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### App
+<img src="https://lh3.googleusercontent.com/ayLoCQPWL4ULJtaxBExInBLOZvSYA2UPbPzQldu8GluNEkooRVJMwUdwtGM9LZVly4SwjSjBuMHge_vD6sxGj1BTTFAsE_qGTXqf_3HF_fCMpy1UlNhzDzzWm-Mpvsr8vRD2U1FO7fNV35MwMlLCHT4MrjFOitLAt9CBx3uuppy1smNeRU08BmpWO1JiJm0h3T4zd6kv4s7rlr6rP5RgxsgiaRbg5CIRK7lfESItqU_Ukcp-BUEUO47qghZj2-VCUvqJlxGppk2j6nk1-2X1cuxSydtlurrzy9wFsKNUaWj7MfceqADa6mzKeqmU9AUpsuolyg_wXVKBBE96oSq005fZL46qMsPcMwyfUTgBlTCbYNOfS7tgbkrTWc96ndNVNzfeHPCxf5oc8cp71w5iOLRp7mTbQ2d5cNbtC0qIwbFcVsJUhzNfY8OFz1nwfeE58p5ifGk2zxdgb8ISAxyY8GfgyhqAYJfWfwDCLgbraUndNXSNRSkmEYFeKXNZFJfzNGVFwBRnTAn-sEa1IodAw4-rhudKilHhXKt3Q1ypQWMKJnQjJBDyoXe4MFDEa_Hmt4q78A1YPM6ImfEHuyvUNGa1nwNhuHKLIn4g-eUfCR8gKmESqn-DKggiaiNlChZ1VjbwKzF-ysekIjN1lEbty4RTP926_uD4Cz_tkWEPfYd_zxDMyx55SW9srhhpgiWkK_8QeQjJiVxGwuZ8zfudK0r7Y3qmIk02IFusNI34e6hZE9_bQxX7mz-gKe7ZvqqwacVBUWxoliE97BGgH5oCdkdUoM7PUvaFT0x3q69-dzk01GBejwbhVEjdcrbpD_pZRlSQys7MOcTCSlCuBSn5uVbahLtp9AL2UQcHYHrS82BzsdoA_zJ8zDBXnQEEZiR85grDYbRzDf-4FwfNw2Ujqj9ISEfZRRUvGu-wTqPUvForZfe_A3K9irb1YJa_3aONupnuF4R0shv9v27hghDXXBjjotQ0cQCm9w1e_R6o5UtxLP5uRDXTiw=w1354-h605-s-no?authuser=0" alt="login" width="1000px">
